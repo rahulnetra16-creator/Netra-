@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Netra Mobile Center",
+  "description": "Integrated Mobile Shop/Repair Management with Hindi \u0026 English support, Patient Registration,Prescriptions, Repair Job Cards, and Billing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

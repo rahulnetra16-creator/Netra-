@@ -1,0 +1,57 @@
+{
+  "id": "/",
+  "name": "Netra Mobile Center - Rahul R Kevat",
+  "short_name": "NetraMobile",
+  "description": "Netra Mobile Center (Prop. Rahul R Kevat): Mobile Shop, Smartphone Accessories, Multi-Brand Repairing, Job Cards & POS Invoicing.",
+  "theme_color": "#06b6d4",
+  "background_color": "#020617",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "hi-IN",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Repair Job Card",
+      "short_name": "Repair",
+      "description": "Quickly create a smartphone repair job card",
+      "url": "/?action=new-repair",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "POS Quick Billing",
+      "short_name": "Billing",
+      "description": "Create an invoice or bill",
+      "url": "/?action=pos",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Daily Kharcha",
+      "short_name": "Expense",
+      "description": "Record daily shop expenses",
+      "url": "/?action=expense",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
